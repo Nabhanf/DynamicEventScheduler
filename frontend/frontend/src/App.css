@@ -1,0 +1,40 @@
+.navbar{
+  height: 70px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  border-bottom: 2px solid gray;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.sidebar{
+  width: 280px;
+  height: 610px;
+  background-color: blue;
+  margin-top: 15px;
+  border-radius: 20px;
+  display: flex;
+  
+  flex-direction: column;
+  padding: 30px;
+  gap: 40px;
+  color: aliceblue;
+
+  
+}
+.page{
+  width: 80%;
+  background-color: white;
+  height: 640px;
+  margin-top: 15px;
+  border-radius: 20px;
+  padding: 30px;
+
+
+}
